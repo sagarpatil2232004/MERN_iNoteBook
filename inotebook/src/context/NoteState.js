@@ -9,7 +9,7 @@ const NoteState = (props) => {
   let location = useLocation();
   const [notes, setnotes] = useState([]);
   const navigate = useNavigate();
-  const HostUrl = "https://mern-inotebook-e6ha.onrender.com";
+  const HostUrl = "https://mern-inotebook-e6ha.onrender.com/";
 
   useEffect(() => {
     const token = localStorage.getItem('token');
