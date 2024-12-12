@@ -21,7 +21,7 @@ export default function SignUp() {
         }
 
         try {
-            const response = await fetch("http://localhost:4000/api/auth/createUser", {
+            const response = await fetch("https://mern-inotebook-e6ha.onrender.com/api/auth/createUser", {
               method: "POST",
               headers: {
                 "Content-Type": "application/json",
